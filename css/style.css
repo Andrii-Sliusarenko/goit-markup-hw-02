@@ -83,6 +83,9 @@ body {
 .nav-page .link:focus {
   color: #404bbf;
 }
+.address {
+  font-style: normal;
+}
 .address .contacts {
   font-size: 16px;
   font-weight: 400;
@@ -107,7 +110,7 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.hero .order {
+.hero .button {
   background-color: #4d5ae5;
   color: #ffffff;
   font-size: 16px;
@@ -116,8 +119,8 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.hero .order:hover,
-.hero .order:focus {
+.hero .button:hover,
+.hero .button:focus {
   background-color: #404bbf;
 }
 .team {
@@ -127,7 +130,7 @@ body {
   background-color: #2e2f42;
 }
 .foot-text {
-  line-height: 1.15;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
