@@ -5,17 +5,26 @@ body {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.2px;
+  background-color: #ffffff;
 }
 .section {
   color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
-  letter-spacing: 0.2px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 .section-title {
   color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.text {
+  letter-spacing: 0.02em;
 }
 .team-card {
   background-color: #ffffff;
@@ -26,7 +35,7 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 .top-line {
@@ -35,14 +44,18 @@ body {
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   font-weight: 700;
   text-transform: uppercase;
-  color: #434455;
-  text-decoration: none;
-}
-.logo .web {
   color: #4d5ae5;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.logo .studio {
+  color: #2e2f42;
+}
+.logo .foot-studio {
+  color: #f4f4fd;
 }
 .nav-page {
   font-weight: 500;
@@ -50,14 +63,16 @@ body {
   line-height: 24px;
   color: #2e2f42;
 }
-.nav-page .studio {
+.nav-page .link {
   text-decoration: none;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-.nav-page .studio:hover,
-.nav-page .studio:focus {
+.nav-page .link:hover,
+.nav-page .link:focus {
   color: #404bbf;
 }
-.nav-page .studio:active {
+.nav-page .link:active {
   color: #404bbf;
   text-decoration: underline;
 }
@@ -74,6 +89,8 @@ body {
   line-height: 24px;
   text-decoration: none;
   color: #434455;
+  font-style: normal;
+  letter-spacing: 0.02em;
 }
 .address .contacts:hover,
 .address .contacts:focus {
@@ -82,14 +99,12 @@ body {
 .hero {
   background-color: #2e2f42;
   text-align: center;
-  width: 1440px;
-  height: 600px;
 }
 .hero .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
-  letter-spacing: 0.2px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
 .hero .order {
@@ -98,8 +113,21 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.hero .order:hover,
+.hero .order:focus {
+  background-color: #404bbf;
 }
 .team {
   background-color: #f4f4fd;
+}
+.footer {
+  background-color: #2e2f42;
+}
+.foot-text {
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
